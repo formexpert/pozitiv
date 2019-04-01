@@ -1,0 +1,231 @@
+
+
+.b-container {padding-left: 0; padding-right: 0;}
+
+/*=======================*/
+
+.grayline {
+  background: #eeeeee url(/assets/img/pattern-graybg.jpg) no-repeat center top;
+  min-height: 300px;
+padding-top:91px;
+margin-top: 80px;
+ overflow: hidden;
+}
+.grayline .container {position: relative;}
+.grayline .container:first-child:before {
+	content: "";
+	position: absolute;
+	bottom:-82px;
+	left:-143px;
+	background: url(/assets/img/dent1.png) no-repeat center top;
+	width: 167px;
+	height: 237px;
+
+}
+.grayline .container:first-child:after {
+	content: "";
+	position: absolute;
+	bottom:-76px;
+	right:-143px;
+	background: url(/assets/img/dent2.png) no-repeat center top;
+	width: 332px;
+	height: 161px;
+
+}
+.grayline .container>img {display: block;}
+.grayline .container:first-child {
+margin-top:30px;
+background: #fff; min-height: 300px; z-index: 20;
+}
+.logo-mp {margin-top: -79px;}
+@media (min-width: 1280px){
+.grayline .container {
+    width: 1280px;
+}
+}
+.grayline .losung {text-align: center; font-size: 18px; padding-top: 5px; margin-bottom: 14px;}
+.grayline .style-one {
+  width: 56px;
+  height: 2px;
+  background: #01a99c;
+  display: block;
+  margin:0 auto;
+}
+.grayline .meta-desc {font-size: 15px; line-height: 24px;}
+.grayline h1 {
+  text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ font-family: 'Raleway-Bold';
+}
+.grayline h3 {
+  color:#016672;
+  font-size: 24px;
+ font-family: 'Raleway-Bold';
+}
+.grayline .price {
+  color: #000;
+  font-size: 25px;
+}
+.grayline a {text-decoration: underline;}
+.grayline a:hover {text-decoration: none;}
+
+/*==========================*/
+
+.scrollbox-photo {
+	padding-top: 85px;
+	padding-bottom: 60px;
+background: rgb(205,231,229); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(205,231,229,1) 0%, rgba(204,229,227,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(205,231,229,1) 0%,rgba(204,229,227,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(205,231,229,1) 0%,rgba(204,229,227,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde7e5', endColorstr='#cce5e3',GradientType=0 ); /* IE6-9 */
+}
+.scrollbox-photo .col-xs-3 {padding-left: 3px; padding-right: 3px;}
+
+/*===============================*/
+.citat {padding-top: 20px;  background: url(/assets/img/pattern-citat.jpg) no-repeat center bottom;}
+.citat .box-light {margin-top: 51px;}
+.citat .container {min-height: 308px; border-bottom:1px solid rgba(0,0,0,.05);}
+/*==============================*/
+.preim {
+ font-family: 'Raleway-Bold';
+ text-align: center;
+ padding-top: 50px;
+}
+.preim .losung {
+	text-align: center; 
+	font-size: 18px; 
+	padding-top: 5px; 
+	margin-bottom: 14px;
+	font-family: 'OpenSans';
+	color:#303030;
+	padding-bottom: 50px;
+}
+.preim .col-xs-6 p {
+	padding-left:160px;
+}
+.preim .col-xs-6 p span {
+ font-family: 'Raleway-Bold';}
+.style-three {
+    height: 2px;
+    border: 0;
+    width: 60px;
+    background: #f9d152;
+    display: block;
+    margin:0 auto 0 0;
+}
+.preim .col-xs-6 p {
+
+	font-family: 'OpenSans';
+}
+
+
+/*==================*/
+.b-doctors {
+	background: rgb(205,231,229); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(205,231,229,1) 0%, rgba(204,229,227,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(205,231,229,1) 0%,rgba(204,229,227,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(205,231,229,1) 0%,rgba(204,229,227,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde7e5', endColorstr='#cce5e3',GradientType=0 ); /* IE6-9 */
+margin-bottom: 0;
+}
+.b-doctors h2 {
+	padding-top: 50px;
+}
+.b-doctors img {
+margin-bottom: 0;
+}
+.b-doctor__list {
+    margin: 0 auto;
+        width: 1020px;
+}
+.grafix {
+    height: 230px; 
+    background:url(/assets/img/grafik_fx.jpg) no-repeat center top;
+    min-width:970px;
+}
+
+.wrapper-200 {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services {
+  padding-bottom: 24px;
+  width: 200px;
+}
+
+.services__list,
+.services__service-list {
+  margin: 4px 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.services__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  background-color: #f5f5f5;
+  font-family: "OpenSans", "Arial", "sans-serif";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #434343;
+  border-bottom: 1px solid #dddddd;
+}
+
+.services__service-list {
+  padding-left: 13px;
+}
+
+.services__service__link {
+  display: block;
+  font-family: "OpenSans", "Arial", "sans-serif";
+  font-size: 13px;
+  line-height: 13px;
+  padding-left: 15px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  position: relative;
+  color: #416368;
+}
+
+.services__service__link::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+  left: 2px;
+  top: 10px;
+}
+
+.services__service__link:hover {
+  color: #ffa500;
+}
+.services__service__link.active {
+    color:#d22222;
+}
+
+
+
+.leftColumn {
+width: 200px;
+float: left;
+}
+.rightColumn {
+margin-left: 220px;
+}
+.containerbox {
+display: table; /* эмулируем таблицу (второй вариант это использование float, но тогда немного больше проблем с IE) */
+width: 100%; /* это нужно для IE */
+}
+* html .containerbox {
+margin-left: -3px; /* исправляем небольшой косяк в IE6 */
+}
